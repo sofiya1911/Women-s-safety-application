@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <View
+        android:layout_width="148dp"
+        android:layout_height="133dp"
+        android:background="@drawable/top_left_oval" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/li"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="47dp"
+        android:fontFamily="cursive"
+        android:text="Send SOS in\nEmergency"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+
+        <Button
+            android:id="@+id/startService"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:text="Start SMS Alerts"
+            android:textColor="#BF1243"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/stopService"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:text="Stop SMS Alerts"
+            android:textColor="#BF1243"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

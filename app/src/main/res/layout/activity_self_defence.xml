@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#BF1243"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/simpleVideoView"
+        android:layout_width="390dp"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginBottom="254dp" />
+
+
+
+</RelativeLayout>
